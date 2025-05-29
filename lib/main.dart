@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:tweenanimation/TweenAnimationBuilder.dart';
+import 'package:tweenanimation/animatedcontainer.dart';
 import 'package:tweenanimation/newscreen.dart';
 
 void main() {
@@ -13,7 +14,7 @@ class TweenAnimation extends StatelessWidget {
   Widget build(BuildContext context) {
     return const MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: TweenAnimationExample(),
+      home: AnimatedcontainerExample(),
     );
   }
 }
