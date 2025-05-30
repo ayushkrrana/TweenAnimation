@@ -25,7 +25,7 @@ class _NewsScreenState extends State<NewsScreen> with SingleTickerProviderStateM
         // nothing here, but this tells Flutter to rebuild
       });
     });
-    animationController.forward();// it is used to start the animation controller
+    animationController.forward();// it is used to start the animation controller which increases the value of the seconds of 4 seconds
   }
 
   @override
